@@ -8,6 +8,7 @@
   background-color: #ffffff;
   justify-content: center;
   align-items: center;
+  border-bottom: 1px solid #dedede;
 
   .content {
     width: 100%;
@@ -22,6 +23,15 @@
       height: 50px;
     }
 
+    .logo {
+      font-size: 26px;
+      color: #333333;
+    }
+
+    .logo:hover {
+      color: #0088ff;
+    }
+
     .right {
       .menu_bar {
         display: flex;
@@ -30,6 +40,7 @@
         .item {
           height: 60px;
           line-height: 60px;
+          color: #333333;
 
           margin: 0;
           padding: 0 20px;
@@ -47,8 +58,8 @@
 
         .item.selected,
         .item:hover {
-          color: #2f54eb;
-          border-bottom: 2px solid #2f54eb;
+          color: #0088ff;
+          border-bottom: 2px solid #0088ff;
         }
       }
     }

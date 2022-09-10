@@ -11,7 +11,7 @@ export const Header = (props: any) => {
   return (
     <div className={classnames(styles.container)}>
       <div className={classnames(styles.content)}>
-        <img src={LOGO_PNG} className={classnames(styles.img)}></img>
+        <div className={classnames(styles.logo)}>Micro Keys</div>
         <div className={classnames(styles.right)}>
           <div className={classnames(styles.menu_bar)}>
             <div

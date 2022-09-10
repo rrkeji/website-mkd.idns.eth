@@ -3,6 +3,14 @@ import { Row, Col } from 'antd';
 import { TweenOneGroup } from 'rc-tween-one';
 import OverPack from 'rc-scroll-anim/lib/ScrollOverPack';
 import { getChildrenToRender as getChildrenToRenderFunc } from './utils';
+import {
+  AppleOutlined,
+  AndroidOutlined,
+  SoundOutlined,
+  UserOutlined,
+} from '@ant-design/icons';
+
+import APP_SVG from '@/assets/app.svg';
 
 const Content5 = (props: any) => {
   const getChildrenToRender = (data: any) =>
@@ -91,15 +99,14 @@ export const Content50DataSource = {
         children: {
           wrapper: { className: 'content5-block-content' },
           img: {
-            children:
-              'https://t.alipayobjects.com/images/rmsweb/T11aVgXc4eXXXXXXXX.svg',
+            children: APP_SVG,
           },
           content: {
-            children: (
+            children: [
               <span>
-                <p>优帝测评</p>
-              </span>
-            ),
+                <p>敬请期待</p>
+              </span>,
+            ],
           },
         },
       },
@@ -111,13 +118,12 @@ export const Content50DataSource = {
         children: {
           wrapper: { className: 'content5-block-content' },
           img: {
-            children:
-              'https://zos.alipayobjects.com/rmsportal/faKjZtrmIbwJvVR.svg',
+            children: APP_SVG,
           },
           content: {
             children: (
               <span>
-                <p>UDI网络</p>
+                <p>敬请期待</p>
               </span>
             ),
           },
@@ -131,13 +137,12 @@ export const Content50DataSource = {
         children: {
           wrapper: { className: 'content5-block-content' },
           img: {
-            children:
-              'https://t.alipayobjects.com/images/rmsweb/T11aVgXc4eXXXXXXXX.svg',
+            children: APP_SVG,
           },
           content: {
             children: (
               <span>
-                <p>无敌编辑器</p>
+                <p>敬请期待</p>
               </span>
             ),
           },
@@ -151,14 +156,13 @@ export const Content50DataSource = {
         children: {
           wrapper: { className: 'content5-block-content' },
           img: {
-            children:
-              'https://zos.alipayobjects.com/rmsportal/faKjZtrmIbwJvVR.svg',
+            children: APP_SVG,
           },
           content: {
             children: (
               <span>
                 <span>
-                  <p>无敌读书</p>
+                  <p>敬请期待</p>
                 </span>
               </span>
             ),
@@ -173,13 +177,12 @@ export const Content50DataSource = {
         children: {
           wrapper: { className: 'content5-block-content' },
           img: {
-            children:
-              'https://t.alipayobjects.com/images/rmsweb/T11aVgXc4eXXXXXXXX.svg',
+            children: APP_SVG,
           },
           content: {
             children: (
               <span>
-                <p>无敌音乐</p>
+                <p>敬请期待</p>
               </span>
             ),
           },
@@ -193,14 +196,13 @@ export const Content50DataSource = {
         children: {
           wrapper: { className: 'content5-block-content' },
           img: {
-            children:
-              'https://zos.alipayobjects.com/rmsportal/faKjZtrmIbwJvVR.svg',
+            children: APP_SVG,
           },
           content: {
             children: (
               <span>
                 <span>
-                  <p>无敌看看</p>
+                  <p>敬请期待</p>
                 </span>
               </span>
             ),
@@ -215,8 +217,7 @@ export const Content50DataSource = {
         children: {
           wrapper: { className: 'content5-block-content' },
           img: {
-            children:
-              'https://t.alipayobjects.com/images/rmsweb/T11aVgXc4eXXXXXXXX.svg',
+            children: APP_SVG,
           },
           content: {
             children: (
@@ -235,8 +236,7 @@ export const Content50DataSource = {
         children: {
           wrapper: { className: 'content5-block-content' },
           img: {
-            children:
-              'https://zos.alipayobjects.com/rmsportal/faKjZtrmIbwJvVR.svg',
+            children: APP_SVG,
           },
           content: {
             children: (
