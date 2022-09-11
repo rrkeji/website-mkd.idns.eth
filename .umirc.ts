@@ -25,8 +25,12 @@ export default defineConfig({
           component: '@/Home/index',
         },
         {
-          path: './download',
-          component: '@/pages/download/index',
+          path: './guide',
+          component: '@/pages/guide/index',
+        },
+        {
+          path: './about',
+          component: '@/pages/about/index',
         },
       ],
     },

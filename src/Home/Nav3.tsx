@@ -25,10 +25,10 @@ export const Header = (props: any) => {
             <div
               className={classnames(styles.item)}
               onClick={() => {
-                history.push('/download');
+                history.push('/guide');
               }}
             >
-              登录
+              开发向导
             </div>
             <div
               className={classnames(styles.item)}
