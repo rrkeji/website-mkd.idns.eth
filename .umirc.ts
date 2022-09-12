@@ -29,6 +29,28 @@ export default defineConfig({
           component: '@/pages/guide/index',
         },
         {
+          path: './console',
+          component: '@/pages/console/index',
+          routes: [
+            {
+              path: './',
+              redirect: './login',
+            },
+            {
+              path: './login',
+              component: '@/micro-keys/login/login',
+            },
+            {
+              path: './kv',
+              component: '@/micro-keys/kv/index',
+            },
+            {
+              path: './application',
+              component: '@/micro-keys/application/index',
+            },
+          ],
+        },
+        {
           path: './about',
           component: '@/pages/about/index',
         },
@@ -36,4 +58,12 @@ export default defineConfig({
     },
   ],
   fastRefresh: {},
+  proxy: {
+    '/api/': {
+      target: 'https://mkd.idns.link/',
+      // pathRewrite: { '^/api': '' },
+      changeOrigin: true,
+      secure: true,
+    },
+  },
 });
